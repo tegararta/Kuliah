@@ -1,6 +1,6 @@
-# Nama Proyek Anda
+# KEAMANAN INFORMASI DAN JARINGAN
 
-Deskripsi singkat atau penjelasan proyek Anda.
+Keamanan informasi dan jaringan adalah aspek penting dalam dunia digital yang berkaitan dengan melindungi data, sistem komputer, dan jaringan dari ancaman dan risiko. Keamanan informasi dan jaringan bertujuan untuk memastikan kerahasiaan, integritas, keotentikan, ketersediaan, dan non-repudiasi data.
 
 ## Daftar Isi
 
@@ -13,7 +13,6 @@ Deskripsi singkat atau penjelasan proyek Anda.
 
 ## Pengantar
 
-Tulis pengantar singkat tentang proyek Anda di sini.
 
 ## Fitur
 
