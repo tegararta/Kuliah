@@ -71,14 +71,3 @@ Kriptografi asimetris menggunakan pasangan kunci publik dan kunci privat. Kunci 
 
 Untuk sumber daya tambahan tentang keamanan informasi dan jaringan, Anda dapat mengunjungi situs web [KeamananInfoJaringan.com](https://www.keamananinfojaringan.com) yang menyediakan panduan dan artikel terbaru tentang topik ini.
 
-Terima kasih telah bergabung dengan kami dalam menjaga keamanan informasi dan jaringan. Mari bersama-sama menjadikan dunia digital menjadi tempat yang lebih aman.
-
-## Kontribusi
-
-Kami selalu terbuka untuk kontribusi dan saran. Jika Anda ingin berkontribusi pada proyek ini atau memiliki pertanyaan, silakan hubungi kami.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [Lisensi XYZ](LICENSE). Silakan baca lisensi sebelum menggunakan proyek ini.
-
-Anda dapat menyusun README.md Anda sesuai dengan preferensi Anda dengan menambahkan atau mengubah bagian yang sesuai. Pastikan untuk menggantikan "URL Gambar" dan konten lainnya sesuai dengan proyek atau informasi yang ingin Anda sampaikan.
