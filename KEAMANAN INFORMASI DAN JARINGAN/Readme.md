@@ -1,11 +1,8 @@
-Tentu, berikut adalah pengembangan lebih lanjut dari README.md Anda:
-
 # KEAMANAN INFORMASI DAN JARINGAN
 
-![Keamanan Informasi](![image](https://github.com/tegararta/Kuliah/assets/91855586/7a21b310-6ffb-4ef9-aa14-4b68142362e0)
-)
+![Keamanan Informasi](https://github.com/tegararta/Kuliah/assets/91855586/7a21b310-6ffb-4ef9-aa14-4b68142362e0)
 
-Selamat datang di proyek Keamanan Informasi dan Jaringan. Proyek ini bertujuan untuk memberikan pemahaman dan panduan mengenai pentingnya keamanan informasi dan jaringan dalam era digital. Kami akan membahas berbagai aspek keamanan informasi, algoritma kriptografi, dan praktik terbaik yang dapat membantu melindungi data Anda.
+Keamanan informasi dan jaringan adalah aspek penting dalam dunia digital yang berkaitan dengan melindungi data, sistem komputer, dan jaringan dari ancaman dan risiko. Keamanan informasi dan jaringan bertujuan untuk memastikan kerahasiaan, integritas, keotentikan, ketersediaan, dan non-repudiasi data.
 
 ## Daftar Isi
 
@@ -32,11 +29,25 @@ Keamanan informasi penting karena:
 
 Dalam bagian ini, kami akan membahas berbagai jenis algoritma kriptografi, termasuk:
 
+- [Caesar Chiper](#caesar-chiper)
 - [Kriptografi Simetris](#kriptografi-simetris)
 - [Kriptografi Asimetris](#kriptografi-asimetris)
 - [Fungsi Hash](#fungsi-hash)
 - [Kriptografi Kunci Publik](#kriptografi-kunci-publik)
 - [Kriptografi Kuantum](#kriptografi-kuantum)
+
+### Caesar Chiper
+Salah satu metode sederhana dalam dunia kriptografi klasik yang digunakan untuk mengenkripsi pesan atau teks. Metode ini dinamai sesuai dengan Julius Caesar, seorang jenderal Romawi yang terkenal karena menggunakannya untuk menjaga kerahasiaan komunikasi militer.
+
+Cara kerja Caesar Cipher adalah dengan menggeser setiap huruf dalam pesan asli sejumlah langkah tertentu dalam alfabet. Langkah geser ini disebut "kunci" atau "shift," dan dapat memiliki nilai positif atau negatif. Jika nilai geser positif, huruf-huruf dalam pesan akan bergeser ke kanan dalam alfabet, sedangkan jika nilai geser negatif, mereka akan bergeser ke kiri.
+
+Sebagai contoh, jika kita menggunakan Caesar Cipher dengan geser +3, maka huruf "A" akan dienkripsi menjadi "D," "B" menjadi "E," dan seterusnya. Jika pesan asli adalah "HELLO," dengan kunci geser +3, maka pesan terenkripsi menjadi "KHOOR."
+
+Proses enkripsi dalam Caesar Cipher relatif sederhana, tetapi sangat penting untuk menyimpan kunci geser dengan baik, karena jika seseorang tahu kunci geser, mereka dapat dengan mudah mendekripsi pesan. Untuk mendekripsi pesan yang dienkripsi dengan Caesar Cipher, Anda hanya perlu menggeser huruf-hurufnya ke arah sebaliknya sesuai dengan kunci yang digunakan pada saat enkripsi.
+
+[Contoh subsitusi sederhana Caesar Cipher](https://github.com/tegararta/Kuliah/blob/main/KEAMANAN%20INFORMASI%20DAN%20JARINGAN/Caesar%20cipher/crypth_sederhana.py)
+
+
 
 ### Kriptografi Simetris
 
