@@ -2,7 +2,8 @@ Tentu, berikut adalah pengembangan lebih lanjut dari README.md Anda:
 
 # KEAMANAN INFORMASI DAN JARINGAN
 
-![Keamanan Informasi](https://assets.cdn.prod.twilio.com/original_images/19DfiKodi3T25Xz7g9EDTyvF9di2SzvJo6JebRJaCN-1P_c1fMqGtrAyZzxGGucG0bcmR8UwNes-gS)
+![Keamanan Informasi]
+(https://assets.cdn.prod.twilio.com/original_images/19DfiKodi3T25Xz7g9EDTyvF9di2SzvJo6JebRJaCN-1P_c1fMqGtrAyZzxGGucG0bcmR8UwNes-gS)
 
 Selamat datang di proyek Keamanan Informasi dan Jaringan. Proyek ini bertujuan untuk memberikan pemahaman dan panduan mengenai pentingnya keamanan informasi dan jaringan dalam era digital. Kami akan membahas berbagai aspek keamanan informasi, algoritma kriptografi, dan praktik terbaik yang dapat membantu melindungi data Anda.
 
