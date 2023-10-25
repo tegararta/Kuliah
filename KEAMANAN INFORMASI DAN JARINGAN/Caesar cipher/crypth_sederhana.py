@@ -1,20 +1,30 @@
 import string
 import os
-def encrypt(alphabet, msg, key):
+
+def encrypt(chrt, msg, key):
     encrypt = ''
+    key = 0
+    for i in key:
+        poskey = chrt.find(i)
+        key += poskey
+
     for i in msg:
-        position = alphabet.find(i)
-        newposition = (position + int(key)) % len(alphabet)
-        encrypt += alphabet [newposition]
+        position = chrt.find(i)
+        newposition = (position + key) % len(chrt)
+        encrypt += chrt [newposition]
 
     return encrypt
 
-def decrypt(alphabet, msg, key):
+def decrypt(chrt, msg, key):
     decrypt = ''
+    key = 0
+    for i in key:
+        poskey = chrt.find(i)
+        key += poskey
     for i in msg:
-        position = alphabet.find(i)
-        newposition = (position + -int(key)) % len(alphabet)
-        decrypt += alphabet [newposition]
+        position = chrt.find(i)
+        newposition = (position + -key) % len(chrt)
+        decrypt += chrt [newposition]
 
     return decrypt
 
