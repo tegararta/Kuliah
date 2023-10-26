@@ -3,27 +3,27 @@ import os
 
 def encrypt(chrt, msg, key):
     encrypt = ''
-    key = 0
+    key1 = 0
     for i in key:
         poskey = chrt.find(i)
-        key += poskey
+        key1 += int(poskey)
 
     for i in msg:
         position = chrt.find(i)
-        newposition = (position + key) % len(chrt)
+        newposition = (position + int(key1)) % len(chrt)
         encrypt += chrt [newposition]
 
     return encrypt
 
 def decrypt(chrt, msg, key):
     decrypt = ''
-    key = 0
+    key1 = 0
     for i in key:
         poskey = chrt.find(i)
-        key += poskey
+        key1 += poskey
     for i in msg:
         position = chrt.find(i)
-        newposition = (position + -key) % len(chrt)
+        newposition = (position + -int(key1)) % len(chrt)
         decrypt += chrt [newposition]
 
     return decrypt
