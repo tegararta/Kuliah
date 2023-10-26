@@ -7,23 +7,18 @@ Keamanan informasi dan jaringan adalah aspek penting dalam dunia digital yang be
 ## Daftar Isi
 
 - [Pengantar](#pengantar)
-- [Mengapa Keamanan Informasi Penting?](#mengapa-keamanan-informasi-penting)
+- [Apa itu Kriptografi?](#sf)
 - [Algoritma Kriptografi](#algoritma-kriptografi)
-- [Tips Keamanan Jaringan](#tips-keamanan-jaringan)
 - [Sumber Daya Tambahan](#sumber-daya-tambahan)
 
 ## Pengantar
 
 Keamanan informasi dan jaringan merupakan aspek kritis dalam dunia digital saat ini. Semakin banyak data yang disimpan dan dipertukarkan secara elektronik, semakin besar pula risiko yang terkait dengan keamanan informasi. Oleh karena itu, penting bagi organisasi dan individu untuk memahami dan menerapkan praktik-praktik keamanan yang baik.
 
-## Mengapa Keamanan Informasi Penting?
+## Apa itu Kriptografi?
 
-Keamanan informasi penting karena:
+Kriptografi merupakan ilmu yang mempelajari teknik perlindungan informasi dengan cara melindungi pesan agar hanya dapat dibaca atau diakses oleh pihak yang berwenang. Ini melibatkan penggunaan berbagai metode, algoritma dan teknik untuk mengenkripsi data atau pesan sehingga hanya pihak yang memiliki kunci yang dapat mendekripsinya. Kriptografi penting untuk menjaga kerahasiaan dan keamanan komunikasi di dunia digital, termasuk transaksi online, komunikasi email, dan berbagai aplikasi keamanan lainnya.
 
-- **Kerahasiaan Data:** Menjaga data sensitif agar tidak jatuh ke tangan yang salah.
-- **Integritas Data:** Memastikan data tetap utuh dan tidak dimanipulasi.
-- **Ketersediaan Data:** Memastikan data selalu tersedia ketika dibutuhkan.
-- **Kepatuhan Hukum:** Kepatuhan dengan undang-undang dan regulasi yang mengharuskan perlindungan data.
 
 ## Algoritma Kriptografi
 
