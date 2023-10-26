@@ -32,11 +32,10 @@ Dalam bagian ini, membahas berbagai jenis algoritma kriptografi, termasuk:
 - [Kriptografi Kuantum](#kriptografi-kuantum)
 
 ### Caesar Chiper
-Salah satu metode sederhana dalam dunia kriptografi klasik yang digunakan untuk mengenkripsi pesan atau teks. Metode ini dinamai sesuai dengan Julius Caesar, seorang jenderal Romawi yang terkenal karena menggunakannya untuk menjaga kerahasiaan komunikasi militer.
+Caesar Cipher bekerja dengan menggeser setiap huruf dalam pesan asli sejumlah langkah tertentu dalam alfabet. Langkah geser ini disebut “kunci” atau “shift,” dan dapat memiliki nilai positif atau negatif. Jika nilai geser positif, huruf-huruf dalam pesan akan bergeser ke kanan dalam alfabet, sedangkan jika nilai geser negatif, mereka akan bergeser ke kiri.
 
-Cara kerja Caesar Cipher adalah dengan menggeser setiap huruf dalam pesan asli sejumlah langkah tertentu dalam alfabet. Langkah geser ini disebut "kunci" atau "shift," dan dapat memiliki nilai positif atau negatif. Jika nilai geser positif, huruf-huruf dalam pesan akan bergeser ke kanan dalam alfabet, sedangkan jika nilai geser negatif, mereka akan bergeser ke kiri.
+Sebagai contoh, Jika kita menggunakan kunci geser +3, maka huruf “H” akan dienkripsi menjadi “K,” “O” menjadi “R,” “L” menjadi “O,” dan “A” menjadi “D.” Oleh karena itu, jika pesan asli adalah “Hola,” dengan kunci geser +3, maka pesan terenkripsi menjadi "KROD".
 
-Sebagai contoh, jika kita menggunakan Caesar Cipher dengan geser +3, maka huruf "A" akan dienkripsi menjadi "D," "B" menjadi "E," dan seterusnya. Jika pesan asli adalah "HELLO," dengan kunci geser +3, maka pesan terenkripsi menjadi "KHOOR."
 
 Proses enkripsi dalam Caesar Cipher relatif sederhana, tetapi sangat penting untuk menyimpan kunci geser dengan baik, karena jika seseorang tahu kunci geser, mereka dapat dengan mudah mendekripsi pesan. Untuk mendekripsi pesan yang dienkripsi dengan Caesar Cipher, Anda hanya perlu menggeser huruf-hurufnya ke arah sebaliknya sesuai dengan kunci yang digunakan pada saat enkripsi.
 
