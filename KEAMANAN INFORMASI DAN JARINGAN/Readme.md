@@ -27,7 +27,7 @@ Keamanan informasi penting karena:
 
 ## Algoritma Kriptografi
 
-Dalam bagian ini, kami akan membahas berbagai jenis algoritma kriptografi, termasuk:
+Dalam bagian ini, membahas berbagai jenis algoritma kriptografi, termasuk:
 
 - [Caesar Chiper](#caesar-chiper)
 - [Kriptografi Simetris](#kriptografi-simetris)
