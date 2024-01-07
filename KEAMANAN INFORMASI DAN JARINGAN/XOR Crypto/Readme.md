@@ -38,5 +38,35 @@ To use this program, you should have Python 3.x installed on your system. You ca
 - Conducts a bitwise XOR operation between each segment and the corresponding segment of the binary key.
 - Converts the resulting binary numbers back to characters to reveal the original plaintext.
 
+## Run
+```
+Program XOR Cipher
+==================
+1. Enkripsi       
+2. Dekripsi       
+3. Keluar
+==================
+Masukkan pilihan: 1
+Enkripsi        
+========        
+Masukkan pesan: Hallo
+Masukkan kunci: not
+Plaintext   : 0100100001100001011011000110110001101111
+key         : 0110111001101111011101000110111001101111
+Chiphertext : 0010011000001110000110000000001000000000
+Program XOR Cipher
+==================
+1. Enkripsi
+2. Dekripsi
+3. Keluar
+==================
+Masukkan pilihan: 2
+Dekripsi
+========
+Masukkan pesan Biner: 0010011000001110000110000000001000000000
+Masukkan kunci: 0110111001101111011101000110111001101111
+Hasil dekripsi: Hallo
+```
+
 ## Note
 This cipher is intended for educational purposes and demonstrates the basic concept of symmetric key encryption. It is not recommended for securing sensitive data.
