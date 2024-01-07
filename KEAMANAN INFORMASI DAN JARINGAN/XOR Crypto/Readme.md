@@ -1,39 +1,42 @@
-XOR Cipher Program
-Overview
-This Python program implements a simple XOR Cipher for encrypting and decrypting messages. XOR (exclusive or) cipher is a basic form of encryption that performs a bitwise XOR operation between the text to be encrypted and a key. The same process is used for both encryption and decryption, making it a symmetric encryption technique.
+# XOR Cipher Program
 
-Features
-Encrypt plaintext messages using a user-provided key.
-Decrypt messages (provided in binary format) using the same key used for encryption.
-The key is repeated or truncated to match the length of the plaintext message.
-The encrypted message and various intermediate data are saved to a text file during encryption.
-Interactive console-based user interface for easy operation.
-How to Use
-Start the Program: Run the program to see the main menu.
-Choose an Option:
-Select "1" for Encryption.
-Select "2" for Decryption.
-Select "3" to Exit the program.
-For Encryption:
-Enter the plaintext message when prompted.
-Enter the key.
-The program will display and save the encrypted message along with intermediate data.
-For Decryption:
-Enter the binary format of the encrypted message.
-Enter the key used during encryption.
-The program will display the decrypted message (original plaintext).
-Encryption Process
-Convert the plaintext message into its binary representation.
-Convert the key into binary form, repeating or truncating it to match the plaintext length.
-Perform a bitwise XOR operation between each bit of the binary plaintext and the binary key.
-Convert the resulting binary sequence back into characters to form the encrypted message.
-Save all relevant data to a file for reference.
-Decryption Process
-Split the binary encrypted message into 8-bit chunks.
-Perform a bitwise XOR operation between each chunk and the corresponding chunk of the binary key.
-Convert the resulting binary numbers back to characters, forming the decrypted message (original plaintext).
-Requirements
-Python 3.x
-Note
-This cipher is not secure for sensitive data encryption. It is mainly for educational purposes and demonstrates the basic concept of symmetric key encryption.
-The effectiveness of the cipher greatly depends on the secrecy of the key.
+## Overview
+This Python program implements the XOR Cipher, a simple yet fascinating method of encryption and decryption. It leverages the XOR (exclusive or) operation, which is a fundamental function in the realm of cryptography. This program allows users to encrypt plaintext messages and decrypt them using a specified key. The process is symmetric, which means the same key is used for both encrypting and decrypting.
+
+## Features
+- **Encryption**: Converts plaintext into an encrypted format using a key.
+- **Decryption**: Reverts the encrypted message back to plaintext using the same key.
+- **Key Management**: Automatically repeats or truncates the key to match the length of the plaintext.
+- **File Output**: Generates a text file containing the encrypted data and various stages of the encryption process.
+- **Interactive Interface**: User-friendly, console-based interface for ease of use.
+
+## Installation
+To use this program, you should have Python 3.x installed on your system. You can clone the repository or download the source code to run the program.
+
+## Usage
+1. **Starting the Program**: Run the program to access the main menu.
+2. **Navigating the Menu**:
+   - Select "1" for Encrypting a message.
+   - Select "2" for Decrypting a message.
+   - Select "3" to Exit the program.
+3. **Encryption Process**:
+   - Enter the plaintext message and the key as prompted.
+   - The program encrypts the message and displays the result along with intermediate data.
+4. **Decryption Process**:
+   - Enter the binary format of the encrypted message and the key.
+   - The program decrypts the message and displays the original plaintext.
+
+## How it Works
+### Encryption
+- Converts the plaintext message into its binary representation.
+- Adjusts the key to match the length of the plaintext, converting it into binary form.
+- Performs a bitwise XOR operation between the binary plaintext and the binary key.
+- Transforms the resulting binary sequence back into characters, forming the encrypted message.
+
+### Decryption
+- Splits the binary encrypted message into 8-bit segments.
+- Conducts a bitwise XOR operation between each segment and the corresponding segment of the binary key.
+- Converts the resulting binary numbers back to characters to reveal the original plaintext.
+
+## Note
+This cipher is intended for educational purposes and demonstrates the basic concept of symmetric key encryption. It is not recommended for securing sensitive data.
